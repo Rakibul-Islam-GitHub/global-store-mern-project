@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+.login-page{
+    
+    background: linear-gradient( 
+208deg, rgb(83 43 136 / 93%) 0%, rgb(158 33 181) 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Inter", sans-serif ;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.error-msg{
+    
+    margin-top: -25px;
+    display: block;
+    color: #780505;
+    font-family: emoji !important;
+    font-weight: normal;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+.content__input--form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content__input--form > label > input {
+  box-sizing: border-box;
+  font-family: "Inter";
+  width: 300px;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 13px;
+  background-color: rgb(250 250 250 / 40%);
+  color: rgb(14, 13, 13);
+  outline: none;
+}
+
+.content__input--form > label > input::placeholder {
+  color: rgb(5, 5, 5);
+  font-size: 14px;
+}
+
+.content__submit > .button {
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 13px;
+  margin-bottom: 30px;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 14px;
+}
+ .formbutton {
+     text-align: center;
+    height: 35px;
+    width: 300px;
+    border: none;
+    border-radius: 13px;
+    margin-bottom: 30px;
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.content__submit > .google-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #4385F5;
+  color: white;
+  overflow: hidden;
+}
+
+.google-button__google-icon {
+  background-color: white;
+  background-image: url("https://img.icons8.com/color/50/000000/google-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35px;
+  height: 100%;
+  width: 20%;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.content__submit--line {
+  width: 60%;
+  height: 1px;
+  background-color: white;
+}
+
+.content__submit > p, .content__footer p {
+  font-weight: 200;
+}
+
+.content__footer p {
+  font-size: 13px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+@media screen and (max-width: 800px) {
+  
+
+  .content__input--form {
+    margin-top: 80px;
+    align-items: center;
+  }
+
+  .content__submit {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  
+}
+
+@media screen and (min-width: 801px) {
+
+  .main-container__content {
+    margin-top: 5%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 400px;
+    padding: 5%;
+  }
+  
+  .content__inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    transform: translate(0, 5%);
+  }
+  
+  .content__submit {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid white;
+  }
+  
+  .content__footer {
+    width: 90%;
+  }
+}

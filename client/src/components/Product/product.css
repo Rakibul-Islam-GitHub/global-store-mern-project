@@ -1,0 +1,21 @@
+.addtocartbtn{
+    background-color: #895c92;
+    color: #ffffff;
+    transition: all 0.3s;
+    border: 1px solid #e6c511;
+}
+.addtocartbtn:hover{
+    background-color: #0c0821;
+    border: 1px solid #af09d8;
+    
+}
+
+/* .modal.fade .modal-dialog {
+    transform: translate3d(0, 50vh, 0);
+  }
+  
+  .modal.in .modal-dialog {
+    transform: translate3d(0, 0, 0);
+  } */
+
+
