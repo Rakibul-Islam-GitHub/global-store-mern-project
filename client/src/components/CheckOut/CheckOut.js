@@ -95,7 +95,7 @@ const CheckOut = () => {
 
   return (
     <div className="container">
-      <NavBar totalAmount={totalAmount} cartLength={cart.length}></NavBar>
+      <NavBar totalAmount={totalAmount} cartShow={true} cartLength={cart.length}></NavBar>
 
       <div className="container checkoutbody">
         <CheckOutBody

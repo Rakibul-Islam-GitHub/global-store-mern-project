@@ -46,7 +46,7 @@ const NavBar = (props) => {
           </li>
         </ul>
       </div>
-      <div className="cart cart-btn">
+      {props.cartShow && <div className="cart cart-btn">
         <button className="btn btn-outline-dark " type="submit">
           <FontAwesomeIcon icon={faShoppingCart} />
           <h6 style={{ display: "inline-block" }}>Cart</h6>
@@ -65,7 +65,7 @@ const NavBar = (props) => {
             </button>
           </div>
         </div>
-      </div>
+      </div>}
     </nav>
   );
 };
