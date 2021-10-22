@@ -76,7 +76,8 @@ const Home = (props) => {
   }, []);
 
   const saveCartToDB = (item) => {
-    console.log(item);
+    
+
     fetch(`http://localhost:5000/addcart?u=${loggedInUser.email}`, {
       method: "POST",
       headers: { "Content-type": "application/json", authorization:`bearer ${localStorage.getItem("token")}` },
@@ -110,7 +111,7 @@ const Home = (props) => {
         // const qniqueProduct = [...new Set(newCart)];
         // newCart.user=loggedInUser.email;
         setCart(newCart);
-        if (loggedInUser.email === undefined || loggedInUser.email === "") {
+        if (loggedInUser.email === undefined || loggedInUser.email === null || loggedInUser.email === "") {
           saveCartData(JSON.stringify(newCart));
         } else {
           saveCartToDB(newCart);
@@ -126,7 +127,7 @@ const Home = (props) => {
        
     
       setCart(qniqueProduct);
-        if (loggedInUser.email === undefined || loggedInUser.email === "") {
+        if (loggedInUser.email === null || loggedInUser.email === "") {
           saveCartData(JSON.stringify(qniqueProduct));
         } else {
           saveCartToDB(qniqueProduct);
@@ -139,7 +140,7 @@ const Home = (props) => {
       // const {id , user, quantity} = newCart[0];
       // qniqueProduct.user=loggedInUser.email;
       setCart(newCart);
-      if (loggedInUser.email === undefined || loggedInUser.email === "") {
+      if (loggedInUser.email === null || loggedInUser.email === "") {
           saveCartData(JSON.stringify(newCart));
         } else {
           saveCartToDB(newCart);

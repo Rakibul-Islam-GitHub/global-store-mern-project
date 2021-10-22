@@ -13,7 +13,7 @@ const CheckOut = () => {
   useEffect(() => {
     const useremail= localStorage.getItem('user')
     setloggedInUser({...loggedInUser, email: useremail})
-    if (useremail === undefined || useremail === "") {
+    if (useremail === undefined || useremail === null || useremail === "") {
       const cartData = getCart();
     if (cartData) {
       setCart(JSON.parse(cartData));
@@ -42,7 +42,7 @@ const CheckOut = () => {
 
     // console.log(newCart);
     // setCart(newCart);
-    if (loggedInUser.email === undefined || loggedInUser.email === ""){
+    if (loggedInUser.email === undefined || loggedInUser.email === null|| loggedInUser.email === ""){
       saveCartData(JSON.stringify(newCart));
       setCart(newCart)
     }else{

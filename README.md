@@ -2,6 +2,6 @@
 
 # Technology used: React (HOOkS), React router, node.js, express, mongodb, context API, firebase auth, Bootstrap, JWT, stripe payment gateway....
 
-link: https://global-store.netlify.app/
+link: https://globalstore-mern-project.netlify.app/
 
 linkedin: https://www.linkedin.com/in/rakibul21
