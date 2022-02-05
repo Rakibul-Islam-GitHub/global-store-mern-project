@@ -18,7 +18,7 @@
 
 ## Overview
 
-Global Store is an E-commerce website that cater to customer's daily needs. It allows the customer to select the item for their choice, add desire quantity and order it directly online via credit card payments. Furthermore the customer have to login to their personal account to place an order and them to see their current and past orders as well. The purpose of this website is to provide an easy and appealing way for the site owner to run an online business and gain a location independent.
+Global Store is an E-commerce website that cater to customer's daily needs. It allows the customer to select the item for their choice, add desire quantity and order it directly online via credit card payments. Furthermore the customer have to login to their personal account to place an order. The goal of this website is to give the site owner a simple and tempting approach to manage an ecommerce business and even become flexible to the global customer.
 
 ### The key Features
 - **Responsive Design** across all device, including a hamburger menu button on smaller screens.
@@ -69,8 +69,8 @@ Global Store is an E-commerce website that cater to customer's daily needs. It a
 
 ### Links
 
-- GitHub Link : [GitHub Link](https://github.com/Rakibul-Islam-GitHub/global-store-mern-project){:target="_blank"}
-- Live Link : [Live Link](https://globalstore-mern-project.netlify.app/){:target="_blank"}
+- GitHub Link : [GitHub Link](https://github.com/Rakibul-Islam-GitHub/global-store-mern-project)
+- Live Link : [Live Link](https://globalstore-mern-project.netlify.app/)
 
 
 ### What I learned
@@ -118,4 +118,4 @@ $ npm start
 
 ## Author
 
-- Linkedin - [Rakibul](https://linkedin.com/in/rakibul21){:target="_blank"}
+- Linkedin - [Rakibul](https://linkedin.com/in/rakibul21)
