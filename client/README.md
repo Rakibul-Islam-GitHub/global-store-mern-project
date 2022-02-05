@@ -18,7 +18,7 @@
 
 ## Overview
 
-Global Store is an E-commerce website that cater to customer's daily needs. It allows the customer to select the item for their choice, add desire quantity and order it directly online via credit card payments. Furthermore the customer have to login to their personal account to place an order. The goal of this website is to give the site owner a simple and tempting approach to manage an ecommerce business and even become flexible to the global customer.
+Global Store is an E-commerce website that fulfill customer's daily needs. It allows the customer to select the item for their choice, add desire quantity and order it directly online via credit card payments. Furthermore the customer have to login to their personal account to place an order. The goal of this website is to give the site owner a simple and tempting approach to manage an ecommerce business and even become flexible to the global customer.
 
 ### The key Features
 - **Responsive Design** across all device, including a hamburger menu button on smaller screens.
